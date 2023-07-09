@@ -17,8 +17,9 @@ function HeroSection() {
             }}>
             
             <div>
-                <h2 className='mt-20 font-PlayfairDisplay font-semibold md:text-[60px] sm:text-[40px] text-[25px] mx-5'>EXPORTERS OF FRESH</h2>
-                <h2 className='font-montserrat font-semibold md:text-[60px] sm:text-[40px] text-[25px] mx-5'>FRUITS & VEGETABLES</h2>
+                <h2 className='mt-50 font-playfairdisplay font-regular md:text-[40px] sm:text-[20px] text-[15px] mx-5'>Welcome To Exportiva</h2>
+                <h2 className='mt-20 font-playfairdisplay font-semibold md:text-[60px] sm:text-[40px] text-[25px] mx-5'>EXPORTERS OF FRESH</h2>
+                <h2 className='font-playfairdisplay font-semibold md:text-[60px] sm:text-[40px] text-[25px] mx-5'>FRUITS & VEGETABLES</h2>
             </div>
                 
             <div className='mt-10'>   

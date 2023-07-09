@@ -6,7 +6,7 @@ function Footer() {
     
 <footer className="bg-black">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:grid md:grid-cols-3 md:gap-10">
+        <div className="md:grid md:grid-cols-4 md:gap-10">
           <div className="col-span-2 mb-6 md:mb-0">
               <Image src="/logo.png" className="" alt="FlowBite Logo" height={50} width={50}/>
               <span className="self-center text-2xl font-montserrat font-semibold whitespace-nowrap text-white">EXPORTIVA</span>
@@ -29,6 +29,23 @@ function Footer() {
                   </li>
                   <li>
                       <a href="Products" className="hover:underline">Products</a>
+                  </li>
+              </ul>
+          </div>
+          <div className="col-span-1">
+              <h2 className="mt-16 mb-6 text-sm font-semibold font-montserrat uppercase text-white">Contacts</h2>
+              <ul className="font-montserrat text-gray-400 font-medium">
+                  <li>
+                      <a href="Products" className="hover:underline" >+254711111203</a>
+                  </li>
+                  <li>
+                      <a href="Services" className="hover:underline space-y-4">+254717197888</a>
+                  </li>
+                  <li>
+                      <a href="Products" className="hover:underline">http://exportiva.co</a>
+                  </li>
+                  <li>
+                      <a href="Products" className="hover:underline">hello@exportiva.co</a>
                   </li>
               </ul>
           </div>
